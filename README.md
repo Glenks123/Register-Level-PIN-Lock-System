@@ -8,12 +8,12 @@ A register-level PIN lock system built on the STM32F407VGTx microcontroller, wri
 - USB-to-serial adapter
 
 ## Peripherals Used
-- GPIOD — keypad rows/columns, LEDs
-- USART2 — UART TX at 115200 baud
-- RCC — peripheral clock configuration
+- GPIOD: keypad rows/columns, LEDs
+- USART2: UART TX at 115200 baud
+- RCC: peripheral clock configuration
 
 ## Roadmap
-- [ ] Migrate keypad input from polling to NVIC interrupt-driven using EXTI lines
+- Migrate keypad input from polling to NVIC interrupt-driven using EXTI lines
       — IRQ handlers, exception model, interrupt priorities
 
 ## Build
